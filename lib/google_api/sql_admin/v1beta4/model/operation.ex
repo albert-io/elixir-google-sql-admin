@@ -43,7 +43,7 @@ defmodule GoogleApi.SQLAdmin.V1beta4.Model.Operation do
 
   @type t :: %__MODULE__{
           :endTime => DateTime.t(),
-          :error => GoogleApi.SQLAdmin.V1beta4.Model.OperationErrors.t(),
+          :error => GoogleApi.SQLAdmin.V1beta4.Model.OperationErrors.t() | nil,
           :exportContext => GoogleApi.SQLAdmin.V1beta4.Model.ExportContext.t(),
           :importContext => GoogleApi.SQLAdmin.V1beta4.Model.ImportContext.t(),
           :insertTime => DateTime.t(),
